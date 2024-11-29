@@ -1,7 +1,7 @@
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
-__AIAP_datatype_intepretation__/
+AIAP_datatype_intepretation.xlsx
 
 # Ignore compiled Cython files
 *.so
