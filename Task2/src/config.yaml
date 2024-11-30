@@ -2,4 +2,13 @@ database:
   db_path: '../../data/noshow.db'
   # db_path: "/Users/shangweisong/Desktop/AIAP_Hotel_pred/data/noshow.db"
 
+preprocess: 
+  clean:
+    drop_duplicates: true
+    drop_na: false
+    scale_numerical: true
+    encode_categorical: true
+    convert_bool: true
 
+  FE:
+    price_converter: true
