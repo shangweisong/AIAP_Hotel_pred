@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 from setup import load_config
 import os
+import utils.preprocess as preprocess
 
 # run in src dir
 script_dir = os.path.dirname(os.path.abspath(__file__))
